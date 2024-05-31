@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(asset/log6-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+main header a{
+    color: #000;
+}
+
+main header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+form {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 2px solid #fff;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    color: #fff;
+    transition: .2s;
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    font-size: 15px !important;
+}
+
+.remember-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn1 {
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+}
+.btn1 a{
+    color: #000;
+}
+
+input:valid+label,
+input:focus+label {
+    background-color: #fff;
+    color: #000;
+    transform: translate(10px, -20px);
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    box-shadow: 15px 0 0 0 #fff;
+    border-top-right-radius: 50%;
+}
+
+header::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    box-shadow: -15px 0 0 0 #fff;
+    border-top-left-radius: 50%;
+}
