@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:#ffeae0;
+    background-color: #ffeae0;
 }
 
 section {
@@ -63,7 +63,7 @@ section nav .fa-magnifying-glass {
     font-size: 18px;
     position: absolute;
     top: 36%;
-    right: 32%;
+    right: 31%;
 }
 
 section nav .search {
@@ -127,6 +127,7 @@ section nav .btn2 a {
     height: 96%;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 .content b {
@@ -164,9 +165,10 @@ section nav .btn2 a {
     text-decoration: none;
     color: #fff;
 }
+
 .menu {
     width: 100%;
-    padding: 70px;
+    padding: 70px 0;
 }
 
 .menu-text h1 {
@@ -187,10 +189,10 @@ section nav .btn2 a {
 }
 
 .menu .menu-box {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .menu .menu-box .menu-card {
@@ -297,14 +299,14 @@ section nav .btn2 a {
 
 .menu2 {
     width: 100%;
-    padding: 70px;
+    padding: 70px 0;
 }
 
 .menu2 .menu-box2 {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .menu2 .menu-box2 .menu-card2 {
@@ -433,6 +435,7 @@ section nav .btn2 a {
     transition: .3s;
     cursor: pointer;
 }
+
 .advance .card-ad:hover {
     background-color: rgba(224, 119, 119, 0.658);
     box-shadow: 5px 5px 5px black;
@@ -456,12 +459,13 @@ section nav .btn2 a {
     text-align: center;
     color: #000;
 }
+
 .gallery {
     width: 100%;
     padding: 70px 0;
 }
 
-.gallery-text  h1{
+.gallery-text h1 {
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -647,7 +651,8 @@ section nav .btn2 a {
     justify-content: center;
     align-items: center;
 }
-.about-img{
+
+.about-img {
     width: 47%;
 }
 
@@ -676,6 +681,7 @@ section nav .btn2 a {
     font-size: 19px;
     font-weight: lighter;
 }
+
 .review {
     width: 100%;
     height: 100vh;
@@ -701,10 +707,11 @@ section nav .btn2 a {
 .review .review-box {
     width: 100%;
     display: flex;
+    gap: 4rem;
 }
 
 .review .review-box .review-card {
-    width: 350px;
+    width: 274px;
     height: 485px;
     box-shadow: 0 2px 8px;
     border-radius: 8px;
@@ -1023,6 +1030,7 @@ section nav .btn2 a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .footer-head {
     width: 100%;
     height: 300px;
@@ -1073,21 +1081,25 @@ section nav .btn2 a {
 .footer-banners {
     display: flex;
     justify-content: space-evenly;
-}
-.footer-banner-links0{
-   width: 23%;
-   line-height: 40px;
+    flex-wrap: wrap;
 }
 
-.footer-banner-links0 h1{
+.footer-banner-links0 {
+    width: 23%;
+    line-height: 40px;
+}
+
+.footer-banner-links0 h1 {
     color: #fff;
     width: 38%;
     line-height: 34px;
 }
-.footer-banner-links0 b{
+
+.footer-banner-links0 b {
     color: indianred;
 }
-.footer-banner-links0 p{
+
+.footer-banner-links0 p {
     width: 100%;
     color: #fff;
 }
@@ -1163,7 +1175,8 @@ section nav .btn2 a {
     text-decoration: underline;
     color: #000;
 }
-.follow-links{
+
+.follow-links {
     padding-left: 7%;
 }
 
@@ -1173,6 +1186,7 @@ section nav .btn2 a {
     color: #fff;
     line-height: 60px;
 }
+
 .follow-links i {
     font-size: 22px;
     width: 30px;
@@ -1183,7 +1197,8 @@ section nav .btn2 a {
     background-color: black;
     transition: .2s;
 }
-.follow-links i:hover{
+
+.follow-links i:hover {
     border: none;
     background-color: #fff;
     color: #000;

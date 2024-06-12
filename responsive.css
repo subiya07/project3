@@ -1,0 +1,1008 @@
+@media screen and (min-width:992px) and (max-width:1344px) {
+    section nav {
+        flex-wrap: wrap;
+    }
+
+    section nav ul {
+        gap: 3rem;
+    }
+
+    .nav-btn {
+        text-align: center;
+        display: flex;
+        gap: 3rem;
+    }
+
+    section nav .search {
+        display: none;
+    }
+
+    section nav .btn2 {
+        display: none;
+    }
+
+    section nav .fa-magnifying-glass {
+        position: sticky;
+        top: 5%;
+        left: 11%;
+    }
+
+    section nav .fa-user {
+        position: sticky;
+        top: 7%;
+        right: 0;
+        color: black;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .menu .menu-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .menu2 .menu-box2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .advance {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .advance .card-ad {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advance .card-ad .face img {
+        margin-left: 1%;
+    }
+
+    .advance .card-ad .face h3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery .gallery-image-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .gallery-image {
+        width: fit-content;
+    }
+
+    .gallery img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery .gallery-image-box .gallery-image p {
+        width: 21%;
+        line-height: 22px;
+    }
+
+    .gallery2 .gallery-image-box2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .gallery-image2 {
+        width: fit-content;
+    }
+
+    .gallery2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery2 .gallery-image-box2 .gallery-image2 p {
+        width: 21%;
+        line-height: 22px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: fit-content;
+    }
+
+    .about img {
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .review {
+        height: fit-content;
+    }
+
+    .review .review-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12rem;
+    }
+
+    .review p {
+        line-height: 19px;
+    }
+
+    .team {
+        height: fit-content;
+    }
+
+    .team-box {
+        flex-wrap: wrap;
+        gap: 12rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info .box .text {
+        font-size: 18px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-head h1 {
+        font-size: 33px;
+    }
+
+    .footer-banners {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-banner-links0 {
+        width: 30%;
+    }
+
+    .follow-links {
+        padding-left: 0%;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+    section nav {
+        flex-wrap: wrap;
+    }
+
+    section nav ul {
+        gap: 20px;
+    }
+
+    .nav-btn {
+        text-align: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    section nav .search {
+        display: none;
+    }
+
+    section nav .btn2 {
+        display: none;
+    }
+
+    section nav .fa-magnifying-glass {
+        position: sticky;
+        top: 5%;
+        left: 11%;
+    }
+
+    section nav .fa-user {
+        position: sticky;
+        top: 7%;
+        right: 0;
+        color: black;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .menu .menu-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .menu2 .menu-box2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .advance {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .advance .card-ad {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advance .card-ad .face img {
+        margin-left: 1%;
+    }
+
+    .advance .card-ad .face h3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery .gallery-image-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery-image {
+        width: fit-content;
+    }
+
+    .gallery img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery .gallery-image-box .gallery-image p {
+        width: 35%;
+        line-height: 22px;
+    }
+
+    .gallery2 .gallery-image-box2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery-image2 {
+        width: fit-content;
+    }
+
+    .gallery2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery2 .gallery-image-box2 .gallery-image2 p {
+        width: 35%;
+        line-height: 22px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: fit-content;
+    }
+
+    .about img {
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .review {
+        height: fit-content;
+    }
+
+    .review .review-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .review p {
+        line-height: 19px;
+    }
+
+    .team {
+        height: fit-content;
+    }
+
+    .team-box {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info .box .text {
+        font-size: 18px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-head h1 {
+        font-size: 33px;
+    }
+
+    .footer-banners {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-banner-links0 {
+        width: 30%;
+    }
+
+    .follow-links {
+        padding-left: 0%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    section nav {
+        flex-wrap: wrap;
+    }
+
+    section nav ul {
+        gap: 20px;
+    }
+
+    .nav-btn {
+        text-align: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    section nav .search {
+        display: none;
+    }
+
+    section nav .btn2 {
+        display: none;
+    }
+
+    section nav .fa-magnifying-glass {
+        position: sticky;
+        top: 5%;
+        left: 11%;
+    }
+
+    section nav .fa-user {
+        position: sticky;
+        top: 7%;
+        right: 0;
+        color: black;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content h1 {
+        margin-top: 25%;
+        font-size: 35px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .menu .menu-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu2 .menu-box2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advance {
+        flex-wrap: wrap;
+    }
+
+    .advance .card-ad {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advance .card-ad .face img {
+        margin-left: 1%;
+    }
+
+    .advance .card-ad .face h3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery .gallery-image-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery-image {
+        width: fit-content;
+    }
+
+    .gallery img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery .gallery-image-box .gallery-image p {
+        width: 35%;
+        line-height: 22px;
+    }
+
+    .gallery2 .gallery-image-box2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery-image2 {
+        width: fit-content;
+    }
+
+    .gallery2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery2 .gallery-image-box2 .gallery-image2 p {
+        width: 35%;
+        line-height: 22px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: fit-content;
+    }
+
+    .about img {
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .review {
+        height: fit-content;
+    }
+
+    .review .review-box {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .review p {
+        line-height: 19px;
+    }
+
+    .team {
+        height: fit-content;
+    }
+
+    .team-box {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info .box .text {
+        font-size: 12px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-head h1 {
+        font-size: 33px;
+    }
+
+    .footer-banners {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .footer-banner-links0 {
+        width: 50%;
+    }
+
+    .follow-links {
+        padding-left: 0%;
+    }
+}
+
+@media screen and (min-width:404px) and (max-width:575px) {
+    section nav {
+        flex-wrap: wrap;
+    }
+
+    section nav ul {
+        gap: 20px;
+    }
+
+    .nav-btn {
+        text-align: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    section nav .search {
+        display: none;
+    }
+
+    section nav .btn2 {
+        display: none;
+    }
+
+    section nav .fa-magnifying-glass {
+        position: sticky;
+        top: 5%;
+        left: 11%;
+    }
+
+    section nav .fa-user {
+        position: sticky;
+        top: 7%;
+        right: 0;
+        color: black;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        height: 97%;
+    }
+
+    .content h1 {
+        margin-top: 25%;
+        font-size: 35px;
+    }
+
+    .content p {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    .menu .menu-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu2 .menu-box2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advance {
+        flex-direction: column;
+    }
+
+    .advance .card-ad {
+        width: 100%;
+    }
+
+    .advance .card-ad .face img {
+        margin-left: 19%;
+    }
+
+    .gallery .gallery-image-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-image {
+        width: fit-content;
+    }
+
+    .gallery img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery .gallery-image-box .gallery-image p {
+        width: 60%;
+    }
+
+    .gallery2 .gallery-image-box2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-image2 {
+        width: fit-content;
+    }
+
+    .gallery2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery2 .gallery-image-box2 .gallery-image2 p {
+        width: 60%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: fit-content;
+    }
+
+    .about img {
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .review {
+        height: fit-content;
+    }
+
+    .review .review-box {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .review p {
+        line-height: 19px;
+    }
+
+    .team {
+        height: fit-content;
+    }
+
+    .team-box {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info .box .text {
+        font-size: 12px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-head h1 {
+        font-size: 33px;
+    }
+
+    .footer-banners {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-banner-links0 {
+        width: 100%;
+    }
+
+    .follow-links {
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:404px) {
+    section nav {
+        flex-direction: column;
+    }
+
+    section nav ul {
+        gap: 7px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    section nav .search {
+        display: none;
+    }
+
+    section nav .btn2 {
+        display: none;
+    }
+
+
+    .team .team-box .profile {
+        width: 100%;
+    }
+
+    .footer-banner-content {
+        padding: 50px 23px;
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        height: 87%;
+    }
+
+    .content h1 {
+        margin-top: 46%;
+        font-size: 31px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .menu .menu-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu2 .menu-box2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .center {
+        font-size: 15px;
+    }
+
+    .advance {
+        flex-direction: column;
+    }
+
+    .advance .card-ad {
+        width: 100%;
+    }
+
+    .advance .card-ad .face img {
+        margin-left: 6%;
+    }
+
+    .advance .card-ad .face h3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gallery .gallery-image-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-image {
+        width: fit-content;
+    }
+
+    .gallery img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery .gallery-image-box .gallery-image p {
+        width: 80%;
+        line-height: 22px;
+    }
+
+    .gallery2 .gallery-image-box2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-image2 {
+        width: fit-content;
+    }
+
+    .gallery2 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .gallery2 .gallery-image-box2 .gallery-image2 p {
+        width: 80;
+        line-height: 22px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: fit-content;
+    }
+
+    .about img {
+        object-fit: contain;
+    }
+
+    .about-text {
+        width: 85%;
+    }
+
+    .review {
+        height: fit-content;
+        padding: 0;
+    }
+
+    .review .review-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .review p {
+        line-height: 19px;
+    }
+
+    .team {
+        height: fit-content;
+    }
+
+    .team-box {
+        flex-direction: column;
+        padding: 30px;
+        gap: 5rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info .box .text {
+        font-size: 12px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer-head h1 {
+        font-size: 25px;
+    }
+
+    .footer-head h2 {
+        font-size: 25px;
+    }
+
+    .btn4 {
+        font-size: 13px;
+    }
+
+    .footer-banners {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-banner-links0 {
+        width: 100%;
+    }
+
+    .follow-links {
+        padding-left: 0%;
+    }
+}
