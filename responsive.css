@@ -803,15 +803,21 @@
     }
 
     section nav ul {
-        gap: 7px;
-    }
-
-    .nav-btn {
-        display: none;
+        gap: 12px;
     }
 
     section nav .search {
         display: none;
+    }
+
+    section nav .fa-magnifying-glass {
+        display: none;
+    }
+
+    section nav .fa-user {
+        color: black;
+        top: 18%;
+        right: 2%;
     }
 
     section nav .btn2 {
@@ -862,6 +868,7 @@
 
     .advance {
         flex-direction: column;
+        gap:5rem ;
     }
 
     .advance .card-ad {
@@ -880,6 +887,7 @@
     .gallery .gallery-image-box {
         flex-direction: column;
         align-items: center;
+        gap: 4rem;
     }
 
     .gallery-image {
@@ -899,6 +907,7 @@
     .gallery2 .gallery-image-box2 {
         flex-direction: column;
         align-items: center;
+        gap: 5rem;
     }
 
     .gallery-image2 {
@@ -911,7 +920,7 @@
     }
 
     .gallery2 .gallery-image-box2 .gallery-image2 p {
-        width: 80;
+        width: 80%;
         line-height: 22px;
     }
 
@@ -940,7 +949,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 3rem;
+        gap: 4rem;
     }
 
     .review p {
@@ -954,7 +963,7 @@
     .team-box {
         flex-direction: column;
         padding: 30px;
-        gap: 5rem;
+        gap: 7rem;
     }
 
     .contact {
