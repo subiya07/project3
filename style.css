@@ -61,31 +61,30 @@ section nav ul li a:hover {
 section nav .fa-magnifying-glass {
     color: indianred;
     font-size: 18px;
-    position: absolute;
-    top: 36%;
-    right: 31%;
+    padding-right: 3rem;
 }
 
-section nav .search {
-    padding: 7px 50px;
+section nav .nav-btn {
+    width: 266px;
+    height: 40px;
+    text-align: center;
     border: 2px solid indianred;
     background-color: #fff;
     border-radius: 5px;
     color: rgb(138, 135, 135);
     font-size: 15px;
-    outline: none;
+    outline-style: none;
 }
 
 section nav .fa-user {
     color: white;
     font-size: 18px;
-    position: absolute;
-    top: 36%;
-    right: 11%;
 }
 
-section nav .btn2 {
-    padding: 7px 40px;
+section nav .nav-log {
+    width: 144px;
+    height: 39px;
+    text-align: center;
     background-color: indianred;
     border-radius: 5px;
     color: #fff;
@@ -94,13 +93,13 @@ section nav .btn2 {
     border: none;
 }
 
-section nav .btn2:hover {
+section nav .nav-log:hover {
     background-color: #000;
     color: #fff;
     transition: 0.5s all ease;
 }
 
-section nav .btn2 a {
+section nav .nav-log a {
     text-decoration: none;
     color: #fff;
 }
@@ -415,9 +414,9 @@ section nav .btn2 a {
 .center {
     display: flex;
     justify-content: center;
-    margin: 4%;
     font-size: 20px;
     font-weight: bold;
+    padding: 50px 0;
 }
 
 .advance {
@@ -434,6 +433,9 @@ section nav .btn2 a {
     box-shadow: 2px 2px 5px 0px currentColor;
     transition: .3s;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .advance .card-ad:hover {
@@ -445,13 +447,11 @@ section nav .btn2 a {
 .advance .card-ad .face img {
     width: 165px;
     height: auto;
-    margin-left: 9%;
 }
 
 .advance .card-ad .face h3 {
-    width: 73%;
+    width: 90%;
     text-align: center;
-    margin-left: 9%;
 }
 
 .advance .card-ad .face p {
@@ -1177,7 +1177,7 @@ section nav .btn2 a {
 }
 
 .follow-links {
-    padding-left: 7%;
+    padding-left: 8%;
 }
 
 .follow-links h4 {

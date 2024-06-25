@@ -1,36 +1,45 @@
 @media screen and (min-width:992px) and (max-width:1344px) {
     section nav {
         flex-wrap: wrap;
+        gap: 1rem;
     }
 
     section nav ul {
-        gap: 3rem;
+        gap: 1rem;
     }
 
-    .nav-btn {
-        text-align: center;
-        display: flex;
-        gap: 3rem;
+    section nav .nav-btn {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+
+    section nav span {
+        display: none;
     }
 
     section nav .search {
         display: none;
     }
 
-    section nav .btn2 {
-        display: none;
+    section nav .nav-log {
+        border: none;
+        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    section nav .nav-log:hover {
+        background-color: white;
     }
 
     section nav .fa-magnifying-glass {
         position: sticky;
-        top: 5%;
-        left: 11%;
+        padding-right: 0;
     }
 
     section nav .fa-user {
         position: sticky;
-        top: 7%;
-        right: 0;
         color: black;
     }
 
@@ -72,13 +81,8 @@
         align-items: center;
     }
 
-    .advance .card-ad .face img {
-        margin-left: 1%;
-    }
-
     .advance .card-ad .face h3 {
         width: 100%;
-        margin-left: 0;
     }
 
     .gallery .gallery-image-box {
@@ -199,10 +203,6 @@
     .follow-links {
         padding-left: 0%;
     }
-
-
-
-
 }
 
 @media screen and (min-width:769px) and (max-width:991px) {
@@ -211,33 +211,41 @@
     }
 
     section nav ul {
-        gap: 20px;
+        gap: 1rem;
     }
 
-    .nav-btn {
-        text-align: center;
-        display: flex;
-        gap: 1rem;
+    section nav .nav-btn {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+
+    section nav span {
+        display: none;
     }
 
     section nav .search {
         display: none;
     }
 
-    section nav .btn2 {
-        display: none;
+    section nav .nav-log {
+        border: none;
+        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    section nav .nav-log:hover {
+        background-color: white;
     }
 
     section nav .fa-magnifying-glass {
         position: sticky;
-        top: 5%;
-        left: 11%;
+        padding-right: 0;
     }
 
     section nav .fa-user {
         position: sticky;
-        top: 7%;
-        right: 0;
         color: black;
     }
 
@@ -277,13 +285,8 @@
         align-items: center;
     }
 
-    .advance .card-ad .face img {
-        margin-left: 1%;
-    }
-
     .advance .card-ad .face h3 {
         width: 100%;
-        margin-left: 0;
     }
 
     .gallery .gallery-image-box {
@@ -393,10 +396,11 @@
     .footer-banners {
         flex-wrap: wrap;
         justify-content: space-between;
+        gap: 4rem;
     }
 
     .footer-banner-links0 {
-        width: 30%;
+        width: 50%;
     }
 
     .follow-links {
@@ -413,30 +417,38 @@
         gap: 20px;
     }
 
-    .nav-btn {
-        text-align: center;
-        display: flex;
-        gap: 1rem;
+    section nav .nav-btn {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+
+    section nav span {
+        display: none;
     }
 
     section nav .search {
         display: none;
     }
 
-    section nav .btn2 {
-        display: none;
+    section nav .nav-log {
+        border: none;
+        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    section nav .nav-log:hover {
+        background-color: white;
     }
 
     section nav .fa-magnifying-glass {
         position: sticky;
-        top: 5%;
-        left: 11%;
+        padding-right: 0;
     }
 
     section nav .fa-user {
         position: sticky;
-        top: 7%;
-        right: 0;
         color: black;
     }
 
@@ -476,13 +488,8 @@
         align-items: center;
     }
 
-    .advance .card-ad .face img {
-        margin-left: 1%;
-    }
-
     .advance .card-ad .face h3 {
         width: 100%;
-        margin-left: 0;
     }
 
     .gallery .gallery-image-box {
@@ -609,33 +616,45 @@
     }
 
     section nav ul {
-        gap: 20px;
+        gap: 18px;
     }
 
-    .nav-btn {
-        text-align: center;
-        display: flex;
-        gap: 1rem;
+    section nav ul li a {
+        font-size: 13px;
+    }
+
+    section nav .nav-btn {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+
+    section nav span {
+        display: none;
     }
 
     section nav .search {
         display: none;
     }
 
-    section nav .btn2 {
-        display: none;
-    }
-
     section nav .fa-magnifying-glass {
         position: sticky;
-        top: 5%;
-        left: 11%;
+        padding-right: 0;
+    }
+
+    section nav .nav-log {
+        border: none;
+        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    section nav .nav-log:hover {
+        background-color: white;
     }
 
     section nav .fa-user {
         position: sticky;
-        top: 7%;
-        right: 0;
         color: black;
     }
 
@@ -675,10 +694,6 @@
 
     .advance .card-ad {
         width: 100%;
-    }
-
-    .advance .card-ad .face img {
-        margin-left: 19%;
     }
 
     .gallery .gallery-image-box {
@@ -799,14 +814,22 @@
 
 @media screen and (max-width:404px) {
     section nav {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     section nav ul {
-        gap: 12px;
+        gap: 10px;
     }
 
-    section nav .search {
+    section nav ul li a {
+        font-size: 13px;
+    }
+
+    section nav .nav-btn {
+        display: none;
+    }
+
+    section nav span {
         display: none;
     }
 
@@ -816,14 +839,19 @@
 
     section nav .fa-user {
         color: black;
-        top: 18%;
-        right: 2%;
+        position: sticky;
     }
 
-    section nav .btn2 {
-        display: none;
+    section nav .nav-log {
+        border: none;
+        background-color: white;
+        width: auto;
+        height: auto;
     }
 
+    section nav .nav-log:hover {
+        background-color: white;
+    }
 
     .team .team-box .profile {
         width: 100%;
@@ -875,13 +903,8 @@
         width: 100%;
     }
 
-    .advance .card-ad .face img {
-        margin-left: 6%;
-    }
-
     .advance .card-ad .face h3 {
         width: 100%;
-        margin-left: 0;
     }
 
     .gallery .gallery-image-box {
