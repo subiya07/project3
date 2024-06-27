@@ -61,19 +61,22 @@ section nav ul li a:hover {
 section nav .fa-magnifying-glass {
     color: indianred;
     font-size: 18px;
-    padding-right: 3rem;
+    margin-left: 22px;
 }
 
 section nav .nav-btn {
-    width: 266px;
-    height: 40px;
-    text-align: center;
+    padding: 0px 5px;
     border: 2px solid indianred;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+section nav .nav-btn .search {
+    padding: 5px 35px;
+    text-align: center;
     color: rgb(138, 135, 135);
     font-size: 15px;
-    outline-style: none;
 }
 
 section nav .fa-user {
@@ -82,8 +85,8 @@ section nav .fa-user {
 }
 
 section nav .nav-log {
-    width: 144px;
-    height: 39px;
+    width: 152px;
+    height: 45px;
     text-align: center;
     background-color: indianred;
     border-radius: 5px;
@@ -246,12 +249,12 @@ section nav .nav-log a {
     align-items: center;
     justify-content: center;
     line-height: 50px;
-    color: #000;
+    color: indianred;
     text-shadow: 0 0 6px #000;
 }
 
 .menu .menu-box .menu-card .small-card i:hover {
-    color: indianred;
+    color: rgb(226, 5, 5);
 }
 
 .menu .menu-box .menu-card .menu-info h2 {
@@ -360,18 +363,18 @@ section nav .nav-log a {
     align-items: center;
     justify-content: center;
     line-height: 50px;
-    color: #000;
+    color: indianred;
     text-shadow: 0 0 6px #000;
 }
 
 .menu2 .menu-box2 .menu-card2 .small-card2 i:hover {
-    color: indianred;
+    color: red;
 }
 
 .menu2 .menu-box2 .menu-card2 .menu-info2 h2 {
     width: 60%;
     text-align: center;
-    margin: 5px auto 10px auto;
+    margin: 5px auto 0px auto;
     font-size: 25px;
     color: indianred;
 }
@@ -436,6 +439,7 @@ section nav .nav-log a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 .advance .card-ad:hover {
@@ -684,7 +688,7 @@ section nav .nav-log a {
 
 .review {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     padding: 70px;
 }
 
@@ -712,7 +716,7 @@ section nav .nav-log a {
 
 .review .review-box .review-card {
     width: 274px;
-    height: 485px;
+    height: 500px;
     box-shadow: 0 2px 8px;
     border-radius: 8px;
     padding: 8px 20px;
@@ -793,7 +797,7 @@ section nav .nav-log a {
 
 .team {
     width: 100%;
-    height: 90vh;
+    height: 60vh;
 }
 
 .team-text h1 {
@@ -1177,7 +1181,7 @@ section nav .nav-log a {
 }
 
 .follow-links {
-    padding-left: 8%;
+    padding-left: 7%;
 }
 
 .follow-links h4 {
