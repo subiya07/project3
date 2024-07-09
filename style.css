@@ -194,6 +194,8 @@ section nav .nav-log a {
     width: 95%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -308,6 +310,8 @@ section nav .nav-log a {
     width: 95%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 4rem;
 }
 
@@ -711,6 +715,8 @@ section nav .nav-log a {
 .review .review-box {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 4rem;
 }
 
