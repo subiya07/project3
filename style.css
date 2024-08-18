@@ -1209,3 +1209,16 @@ section nav .nav-log a {
     background-color: #fff;
     color: #000;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, indianred, rgb(226, 159, 159));
+    border-radius: 10px;
+}
